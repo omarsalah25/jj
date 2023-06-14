@@ -43,7 +43,7 @@ owl.owlCarousel({
   items: 3,
   loop: true,
   margin: 10,
-  nav: true,
+  nav: false,
   smartSpeed: 1000,
   autoplay: true,
   autoplayTimeout: 4000,
@@ -51,7 +51,7 @@ owl.owlCarousel({
   responsive: {
     0: {
       items: 1,
-      nav: true
+      nav: false
     },
     600: {
       items: 2,
@@ -59,8 +59,7 @@ owl.owlCarousel({
     },
     1000: {
       items: 3,
-      nav: true,
-      loop: false
+      nav: false,
     }
   }
 });
@@ -69,7 +68,7 @@ owl.owlCarousel({
   items: 3,
   loop: true,
   margin: 10,
-  nav: true,
+  nav: false,
   smartSpeed: 1000,
   autoplay: true,
   autoplayTimeout: 4000,
@@ -77,7 +76,7 @@ owl.owlCarousel({
   responsive: {
     0: {
       items: 1,
-      nav: true
+      nav: false
     },
     600: {
       items: 2,
@@ -85,8 +84,7 @@ owl.owlCarousel({
     },
     1000: {
       items: 3,
-      nav: true,
-      loop: false
+      nav: false,
     }
   }
 });
