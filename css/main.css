@@ -377,15 +377,26 @@ a {
 .accordion-button {
   background-color: #fff;
   font: 21px Roboto, sans-serif;
-  width: 100%;
   text-align: left;
   color: #000;
 }
 .accordion-button:after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  content: "read More";
+  background-color: #000;
+  color: #fff;
+  border-radius: 50px;
+  width: 150px;
+  padding: 10px 10px 30px 20px;
 }
 .accordion-button:not(.collapsed):after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  content: "read More";
+  background-color: #000;
+  color: #fff;
+  border-radius: 50px;
+  width: 150px;
+  padding: 10px 10px 30px 20px;
+  font-size: 20px;
+  transform: none !important;
 }
 .accordion-button:hover {
   font: 21px Roboto, sans-serif;
@@ -398,7 +409,8 @@ a {
   border: none;
   color: #000;
   box-shadow: none;
-  transition: all;
+  transition: none !important;
+  transform: none !important;
 }
 .accordion-item {
   background-color: #fff;
