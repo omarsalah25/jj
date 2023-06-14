@@ -319,6 +319,10 @@
   opacity: 1;
 }
 
+.footer-phone-icon {
+  font-size: 25px;
+}
+
 /*-----------------------------------
            partners
   -----------------------------------*/
@@ -528,6 +532,9 @@
     line-height: 1.5;
   }
   .footer-20192 .cta h3 {
+    font-size: 20px;
+  }
+  .footer-phone-icon {
     font-size: 20px;
   }
   .news-img {
