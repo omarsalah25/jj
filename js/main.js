@@ -37,6 +37,67 @@ $(document).ready(function () {
   });
 });
 
+
+var owl = $('#event-slider');
+owl.owlCarousel({
+  items: 3,
+  loop: true,
+  margin: 10,
+  nav: true,
+  smartSpeed: 1000,
+  autoplay: true,
+  autoplayTimeout: 4000,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1,
+      nav: true
+    },
+    600: {
+      items: 2,
+      nav: false
+    },
+    1000: {
+      items: 3,
+      nav: true,
+      loop: false
+    }
+  }
+});
+var owl = $('#news-slider');
+owl.owlCarousel({
+  items: 3,
+  loop: true,
+  margin: 10,
+  nav: true,
+  smartSpeed: 1000,
+  autoplay: true,
+  autoplayTimeout: 4000,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1,
+      nav: true
+    },
+    600: {
+      items: 2,
+      nav: false
+    },
+    1000: {
+      items: 3,
+      nav: true,
+      loop: false
+    }
+  }
+});
+$('.play').on('click', function () {
+  owl.trigger('play.owl.autoplay', [4000])
+})
+$('.stop').on('click', function () {
+  owl.trigger('stop.owl.autoplay')
+});
+
+
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
 

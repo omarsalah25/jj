@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/news.css" />
     <script src="js/news.js"></script>
     <link rel="stylesheet" href="fonts/icomoon/style.css" />
-
     <script src="js/jquery.min.js"></script>
     <script src="OwlCarousel2-2.3.4\dist\owl.carousel.js"></script>
     <link
@@ -17,7 +17,7 @@
     <link
       rel="stylesheet"
       href="OwlCarousel2-2.3.4\dist\assets\owl.theme.default.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -32,7 +32,7 @@
         class="container-fluid fixed-top px-lg-5 px-sm-3 py-2 shadow-sm bg-white">
         <div class="row project-reverse">
           <div class="col-md-6">
-            <img src="images/Logo.png" class="img-logo" alt="logo" />
+            <a href="/"> <img src="images/Logo.png" class="img-logo" alt="logo" /></a>
           </div>
           <div class="col-md-6">
             <div class="hamburger-menu">
@@ -53,378 +53,165 @@
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    <!-- img-thumbnail  -->
-    <img class="img-fluid" src="./images/news-img.jpg" />
-    <!-- Events-slider  -->
+        
+        </div>
 
-    <div class="container reveal">
-      <div class="event-news-slider">
-        <div
-          id="carouselExampleControls"
-          class="carousel carousel-dark"
-          data-bs-ride="carousel">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="event-news-title">
-                  <i class="bi bi-quote display-2"></i>
-                  <h2 class="fw-bold display-6">Events</h2>
-                </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleControls"
-                  data-bs-slide="prev">
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleControls"
-                  data-bs-slide="next">
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+   
+      </header>
+        <!-- img-thumbnail  -->
+        <div class="news-img-div" style="padding-top: 70px;">
+          <img class="img-fluid"  src="./images/news-img.jpg" />
+        </div>
+       <!-- Events-slider  -->
+        <!-- first slider  -->
+        <div class="container-fluid px-lg-5 px-sm-3 py-4 " >
+          <div class="enews-slider-inner-1 ">
+            <h2 class=" py-2"> Events </h2>
+            <div class="owl-carousel owl-theme f-slider" id="event-slider">
+              <div class="position-relative" >
+                <div class="item">
+                  <h4  class="event-header" >Title</h4>
+                  <div class="slid-img">
+                    <img
+                      class="item-img"
+                      src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/30LJYJGOMY.jpg"
+                      style="z-index: -1" />
+                  </div>
+                  <h5 class="event-date" style="display: flex;
+                  align-items: flex-end;
+                  flex-direction: row-reverse;
+              ">Date</h5>
+                 </div>
               </div>
-              <div class="col-md-12">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="card">
-                      <div class="img-wrapper">
-                        <img
-                          src="https://source.unsplash.com/300x300/?fremantle,australia"
-                          class="d-block w-100"
-                          alt="..." />
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Card title 1</h5>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <p class="card-text">
-                          "Some dummy text you don't need to read. Since you
-                          have decided to read, do like, share, comment and
-                          subscribe to Coding Yaar."
-                        </p>
-                      </div>
-                    </div>
+
+              <div class="position-relative" >
+                <div class="item">
+                  <h4  class="event-header" >Title</h4>
+                  <div class="slid-img">
+                    <img
+                      class="item-img"
+                      src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/30LJYJGOMY.jpg"
+                      style="z-index: -1" />
                   </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                      <div class="img-wrapper">
-                        <img
-                          src="https://source.unsplash.com/300x300/?west-australia"
-                          class="d-block w-100"
-                          alt="..." />
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Card title 2</h5>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <p class="card-text">
-                          "Some dummy text you don't need to read. Since you
-                          have decided to read, do like, share, comment and
-                          subscribe to Coding Yaar."
-                        </p>
-                      </div>
-                    </div>
+                  <h5 class="event-date" style="display: flex;
+                  align-items: flex-end;
+                  flex-direction: row-reverse;
+              ">Date</h5>
+                 </div>
+              </div>
+
+              <div class="position-relative" >
+                <div class="item">
+                  <h4  class="event-header" >Title</h4>
+                  <div class="slid-img">
+                    <img
+                      class="item-img"
+                      src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/30LJYJGOMY.jpg"
+                      style="z-index: -1" />
                   </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                      <div class="img-wrapper">
-                        <img
-                          src="https://source.unsplash.com/300x300/?west-australia"
-                          class="d-block w-100"
-                          alt="..." />
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Card title 3</h5>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <p class="card-text">
-                          "Some dummy text you don't need to read. Since you
-                          have decided to read, do like, share, comment and
-                          subscribe to Coding Yaar."
-                        </p>
-                      </div>
-                    </div>
+                  <h5 class="event-date" style="display: flex;
+                  align-items: flex-end;
+                  flex-direction: row-reverse;
+              ">Date</h5>
+                 </div>
+              </div>
+
+              <div class="position-relative" >
+                <div class="item">
+                  <h4  class="event-header" >Title</h4>
+                  <div class="slid-img">
+                    <img
+                      class="item-img"
+                      src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/30LJYJGOMY.jpg"
+                      style="z-index: -1" />
                   </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                      <div class="img-wrapper">
-                        <img
-                          src="https://source.unsplash.com/300x300/?west-australia"
-                          class="d-block w-100"
-                          alt="..." />
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Card title 4</h5>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <p class="card-text">
-                          "Some dummy text you don't need to read. Since you
-                          have decided to read, do like, share, comment and
-                          subscribe to Coding Yaar."
-                        </p>
-                      </div>
-                    </div>
+                  <h5 class="event-date" style="display: flex;
+                  align-items: flex-end;
+                  flex-direction: row-reverse;
+              ">Date</h5>
+                 </div>
+              </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- News-slider  -->
+        <!-- sec slider  -->
+        <div class="container-fluid px-lg-5 px-sm-3 py-4 " >
+          <div class="enews-slider-inner-1">
+            <h2 class=" py-2"> News </h2>
+            <div class="owl-carousel owl-theme f-slider" id="news-slider">
+              <div class="position-relative" >
+                <div class="item">
+                  <h4  class="event-header" >Title</h4>
+                  <div class="slid-img">
+                    <img
+                      class="item-img"
+                      src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/30LJYJGOMY.jpg"
+                      style="z-index: -1" />
                   </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                      <div class="img-wrapper">
-                        <img
-                          src="https://source.unsplash.com/300x300/?west-australia"
-                          class="d-block w-100"
-                          alt="..." />
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Card title 5</h5>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <p class="card-text">
-                          "Some dummy text you don't need to read. Since you
-                          have decided to read, do like, share, comment and
-                          subscribe to Coding Yaar."
-                        </p>
-                      </div>
-                    </div>
+                  <h5 class="event-date" style="display: flex;
+                  align-items: flex-end;
+                  flex-direction: row-reverse;
+              ">Date</h5>
+                 </div>
+              </div>
+
+              <div class="position-relative" >
+                <div class="item">
+                  <h4  class="event-header" >Title</h4>
+                  <div class="slid-img">
+                    <img
+                      class="item-img"
+                      src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/30LJYJGOMY.jpg"
+                      style="z-index: -1" />
                   </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                      <div class="img-wrapper">
-                        <img
-                          src="https://source.unsplash.com/300x300/?west-australia"
-                          class="d-block w-100"
-                          alt="..." />
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Card title 6</h5>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <p class="card-text">
-                          "Some dummy text you don't need to read. Since you
-                          have decided to read, do like, share, comment and
-                          subscribe to Coding Yaar."
-                        </p>
-                      </div>
-                    </div>
+                  <h5 class="event-date" style="display: flex;
+                  align-items: flex-end;
+                  flex-direction: row-reverse;
+              ">Date</h5>
+                 </div>
+              </div>
+
+              <div class="position-relative" >
+                <div class="item">
+                  <h4  class="event-header" >Title</h4>
+                  <div class="slid-img">
+                    <img
+                      class="item-img"
+                      src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/30LJYJGOMY.jpg"
+                      style="z-index: -1" />
                   </div>
+                  <h5 class="event-date" style="display: flex;
+                  align-items: flex-end;
+                  flex-direction: row-reverse;
+              ">Date</h5>
+                 </div>
+              </div>
+
+              <div class="position-relative" >
+                <div class="item">
+                  <h4  class="event-header" >Title</h4>
+                  <div class="slid-img">
+                    <img
+                      class="item-img"
+                      src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/30LJYJGOMY.jpg"
+                      style="z-index: -1" />
+                  </div>
+                  <h5 class="event-date" style="display: flex;
+                  align-items: flex-end;
+                  flex-direction: row-reverse;
+              ">Date</h5>
+                 </div>
+              </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- News-slider  -->
-      <div class="event-news-slider">
-        <div
-          id="carouselExampleControls1"
-          class="carousel carousel-dark"
-          data-bs-ride="carousel">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="event-news-title">
-                  <i class="bi bi-quote display-2"></i>
-                  <h2 class="fw-bold display-6">News</h2>
-                </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleControls1"
-                  data-bs-slide="prev">
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleControls1"
-                  data-bs-slide="next">
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              <div class="col-md-12">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="card">
-                      <div class="img-wrapper">
-                        <img
-                          src="https://source.unsplash.com/300x300/?west-australia"
-                          class="d-block w-100"
-                          alt="..." />
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Card title 1</h5>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <p class="card-text">
-                          "Some dummy text you don't need to read. Since you
-                          have decided to read, do like, share, comment and
-                          subscribe to Coding Yaar."
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                      <div class="img-wrapper">
-                        <img
-                          src="https://source.unsplash.com/300x300/?west-australia"
-                          class="d-block w-100"
-                          alt="..." />
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Card title 2</h5>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <p class="card-text">
-                          "Some dummy text you don't need to read. Since you
-                          have decided to read, do like, share, comment and
-                          subscribe to Coding Yaar."
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                      <div class="img-wrapper">
-                        <img
-                          src="https://source.unsplash.com/300x300/?west-australia"
-                          class="d-block w-100"
-                          alt="..." />
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Card title 3</h5>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <p class="card-text">
-                          "Some dummy text you don't need to read. Since you
-                          have decided to read, do like, share, comment and
-                          subscribe to Coding Yaar."
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                      <div class="img-wrapper">
-                        <img
-                          src="https://source.unsplash.com/300x300/?west-australia"
-                          class="d-block w-100"
-                          alt="..." />
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Card title 4</h5>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <p class="card-text">
-                          "Some dummy text you don't need to read. Since you
-                          have decided to read, do like, share, comment and
-                          subscribe to Coding Yaar."
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                      <div class="img-wrapper">
-                        <img
-                          src="https://source.unsplash.com/300x300/?west-australia"
-                          class="d-block w-100"
-                          alt="..." />
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Card title 5</h5>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <p class="card-text">
-                          "Some dummy text you don't need to read. Since you
-                          have decided to read, do like, share, comment and
-                          subscribe to Coding Yaar."
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                      <div class="img-wrapper">
-                        <img
-                          src="https://source.unsplash.com/300x300/?west-australia"
-                          class="d-block w-100"
-                          alt="..." />
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Card title 6</h5>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <i class="bi bi-star-fill text-warning pe-1"></i>
-                        <p class="card-text">
-                          "Some dummy text you don't need to read. Since you
-                          have decided to read, do like, share, comment and
-                          subscribe to Coding Yaar."
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      
-    </div>
     <!--  -->
       <!-- footer -->
-      <div class="container-fluid px-lg-5 px-sm-3 py-4 reveal" style="background-color: black;">
+      <div class="container-fluid px-lg-5 px-sm-3 py-4 " style="background-color: black;">
         
               <footer class="footer-20192 pl-5">
         <div class="site-section">
@@ -474,90 +261,6 @@
         </div>
       </footer>
       </div>
-    <script>
-      $(document).ready(function () {
-        var multipleCardCarousel = document.querySelector(
-          "#carouselExampleControls"
-        );
-        if (window.matchMedia("(min-width: 576px)").matches) {
-          var carousel = new bootstrap.Carousel(multipleCardCarousel, {
-            interval: false,
-            wrap: false,
-          });
-          var carouselWidth = $(".carousel-inner")[0].scrollWidth;
-          var cardWidth = $(".carousel-item").width();
-          var scrollPosition = 0;
-          $("#carouselExampleControls .carousel-control-next").on(
-            "click",
-            function () {
-              if (scrollPosition < carouselWidth - cardWidth * 3) {
-                scrollPosition += cardWidth;
-                $("#carouselExampleControls .carousel-inner").animate(
-                  { scrollLeft: scrollPosition },
-                  600
-                );
-              }
-            }
-          );
-          $("#carouselExampleControls .carousel-control-prev").on(
-            "click",
-            function () {
-              if (scrollPosition > 1) {
-                scrollPosition -= cardWidth;
-                $("#carouselExampleControls .carousel-inner").animate(
-                  { scrollLeft: scrollPosition },
-                  600
-                );
-              }
-            }
-          );
-        } else {
-          $(multipleCardCarousel).addClass("slide");
-        }
-      });
-      //
-      $(document).ready(function () {
-        var multipleCardCarousel = document.querySelector(
-          "#carouselExampleControls1"
-        );
-        if (window.matchMedia("(min-width: 576px)").matches) {
-          var carousel = new bootstrap.Carousel(multipleCardCarousel, {
-            interval: false,
-            wrap: false,
-          });
-          var carouselWidth = $(".carousel-inner")[0].scrollWidth;
-          var cardWidth = $(".carousel-item").width();
-          var scrollPosition = 0;
-          $("#carouselExampleControls1 .carousel-control-next").on(
-            "click",
-            function () {
-              if (scrollPosition < carouselWidth - cardWidth * 3) {
-                scrollPosition += cardWidth;
-                $("#carouselExampleControls1 .carousel-inner").animate(
-                  { scrollLeft: scrollPosition },
-                  600
-                );
-              }
-            }
-          );
-          $("#carouselExampleControls1 .carousel-control-prev").on(
-            "click",
-            function () {
-              if (scrollPosition > 1) {
-                scrollPosition -= cardWidth;
-                $("#carouselExampleControls1 .carousel-inner").animate(
-                  { scrollLeft: scrollPosition },
-                  600
-                );
-              }
-            }
-          );
-        } else {
-          $(multipleCardCarousel).addClass("slide");
-        }
-      });
-    </script>
-
     <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>
   </body>
