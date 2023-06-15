@@ -62,7 +62,11 @@ owl.owlCarousel({
       nav: false,
     }
   }
+
 });
+
+
+
 var owl = $('#news-slider');
 owl.owlCarousel({
   items: 3,
@@ -95,6 +99,24 @@ $('.stop').on('click', function () {
   owl.trigger('stop.owl.autoplay')
 });
 
+//project-page-slider
+
+var owl = $('#project-slider');
+owl.owlCarousel({
+  items: 1,
+  loop: true,
+  smartSpeed: 1000,
+  autoplay: true,
+  autoplayTimeout: 4000,
+  autoplayHoverPause: true
+});
+$('.play').on('click', function () {
+  owl.trigger('play.owl.autoplay', [4000])
+})
+$('.stop').on('click', function () {
+  owl.trigger('stop.owl.autoplay')
+});
+
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
@@ -115,3 +137,21 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 
 
+
+
+// ======================================
+// construction vedios 
+// ================================
+let videoList = document.querySelectorAll('.video-list-container .lists');
+
+videoList.forEach(vid => {
+  vid.onclick = () => {
+    videoList.forEach(remove => { remove.classList.remove('.active') });
+    vid.classList.add('.active');
+    let src = vid.querySelector('.list-video').src;
+    let title = vid.querySelector('.list-title').innerHTML;
+    document.querySelector('.main-video-container .main-video').src = src;
+    document.querySelector('.main-video-container .main-video').play();
+    document.querySelector('.main-video-container .main-vid-title').innerHTML = title;
+  };
+});
