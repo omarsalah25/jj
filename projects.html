@@ -48,7 +48,9 @@
                 <li>
                   <a class="menu__item" href="event-news.html">Event&News</a>
                 </li>
-                <li><a class="menu__item" href="#">Projects</a></li>
+                <li>
+                  <a class="menu__item" href="about-project.html">Projects</a>
+                </li>
                 <li>
                   <a class="menu__item" href="constr-up.html"
                     >Constraction Update</a
@@ -63,76 +65,88 @@
         </div>
       </div>
     </header>
-
     <!-- img-thumbnail  -->
     <div class="news-img-div" style="padding-top: 70px">
-      <img class="img-fluid news-img" src="./images/contact-us-pic.jpg" />
+      <img class="img-fluid news-img" src="./images/about-project-main.jpg" />
     </div>
     <!-- img-thumbnail  -->
-    <div class="container-fluid px-lg-5 px-sm-3 py-2 shadow-sm bg-white">
-      <!-- fourm -->
-      <h1 class="text-dark fw-bold pt-5">Contact us</h1>
-      <h1 class="text-dark fw-bold about-title text-end px-4 m-2">
-        GET IN TOUCH
-      </h1>
+    <div class="container-fluid px-lg-5 px-sm-5 py-3 reveal">
+      <h2 class="text-dark fw-bold about-title px-4 m-2">Projects</h2>
 
-      <form action="post" name="submit">
-        <div class="row container-fluid">
-          <div class="col-md-6">
-            <select
-              id="inquiry-type"
-              name=""
-              class="project-form-input col-md-12">
-              <option value="" selected disabled hidden>
-                Select inquiry type :*
-              </option>
-              <option value="volvo">Volvo</option>
-              <option value="saab">Saab</option>
-              <option value="fiat">Fiat</option>
-              <option value="audi">Audi</option>
-            </select>
-            <input
-              class="project-form-input col-md-12"
-              type="text"
-              placeholder="Name:*" />
-            <input
-              class="project-form-input col-md-12"
-              type="text"
-              placeholder="E-mail:*" />
-            <input
-              class="project-form-input col-md-12"
-              type="text"
-              placeholder="phone:*" />
-          </div>
-          <div class="col-md-6 pt-4">
-            <textarea
-              name=""
-              id=""
-              cols="115"
-              rows="14"
-              style="resize: both"></textarea>
-          </div>
-          <div class="col-md-3">
-            <input
-              class="btn btn-dark py-3 px-4 rounded-pill mt-5 fs-5 view-btn"
-              type="button"
-              value="SUBMIT"
-              name="submit" />
+      <div class="reveal px-3">
+        <div class="owl-carousel owl-theme p-slider" id="p-slider">
+          <div class="position-relative" style="height: 90vh">
+            <div class="item">
+              <div class="slid-img">
+                <img
+                  class="item-img"
+                  src="/images/jadeerslider-pic2.jpg"
+                  style="z-index: -1" />
+              </div>
+
+              <div
+                class="slide-content animate__animated animate__fadeInLeft animate__slow reveal animate__delay-2s">
+                <div class="row project-reverse">
+                  <div class="col-md-3">
+                    <a
+                      href=""
+                      class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn animate__animated animate__fadeInUp animate__slow animate__delay-2s"
+                      >View More</a
+                    >
+                  </div>
+                  <div
+                    class="col-md-9 p-0 animate__animated animate__fadeInRight animate__slow animate__delay-2s">
+                    <h1 class="text-dark text-start fw-bold">Code</h1>
+                    <p class="text-dark text-start">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Asperiores assumenda repellendus provident sunt
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </form>
-    </div>
+      </div>
 
-    <!-- fourm -->
+      <div class="reveal px-3">
+        <div class="owl-carousel owl-theme p2-slider" id="p2-slider">
+          <div class="position-relative" style="height: 90vh">
+            <div class="item">
+              <div class="slid-img">
+                <img
+                  class="item-img"
+                  src="/images/jadeerslider-pic2.jpg"
+                  style="z-index: -1" />
+              </div>
 
-    <!-- Location -->
-    <div>
-      <img class="img-fluid" src="/images/location-pic.jpg" alt="" />
+              <div
+                class="slide-content animate__animated animate__fadeInLeft animate__slow reveal animate__delay-2s">
+                <div class="row project-reverse">
+                  <div class="col-md-3">
+                    <a
+                      href=""
+                      class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn animate__animated animate__fadeInUp animate__slow animate__delay-2s"
+                      >View More</a
+                    >
+                  </div>
+                  <div
+                    class="col-md-9 p-0 animate__animated animate__fadeInRight animate__slow animate__delay-2s">
+                    <h1 class="text-dark text-start fw-bold">Code</h1>
+                    <p class="text-dark text-start">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Asperiores assumenda repellendus provident sunt
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Location -->
 
     <!-- footer -->
-
     <div
       class="container-fluid px-lg-5 px-sm-3 py-4"
       style="background-color: black">
@@ -146,15 +160,15 @@
               <div class="col-lg-4 col-md-6 p-links">
                 <ul class="list-unstyled links">
                   <li><a href="/">Home</a></li>
-                  <li><a href="/about-project.html">Our project</a></li>
-                  <li><a href="#">Construction update</a></li>
+                  <li><a href="#">Our project</a></li>
+                  <li><a href="/constr-up.html">Construction update</a></li>
                 </ul>
               </div>
               <div class="col-lg-4 col-md-6">
                 <ul class="list-unstyled links p-links">
                   <li><a href="event-news.html">Events & news</a></li>
                   <li><a href="/about-us.html">About us</a></li>
-                  <li><a href="#">Contact us</a></li>
+                  <li><a href="/contact-us.html">Contact us</a></li>
                 </ul>
               </div>
               <div class="col-lg pt-2">
@@ -189,8 +203,7 @@
         </div>
       </footer>
     </div>
-
-    <script src="js/bootstrap.js"></script>
-    <script src="js/main.js"></script>
   </body>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
 </html>

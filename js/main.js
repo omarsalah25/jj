@@ -98,7 +98,42 @@ $('.stop').on('click', function () {
   owl.trigger('stop.owl.autoplay')
 });
 
-//project-page-slider
+
+var owl = $('#p-slider');
+owl.owlCarousel({
+  items: 1,
+  loop: false,
+  nav: false,
+  smartSpeed: 1000,
+  autoplay: false,
+  autoplayTimeout: 4000,
+  autoplayHoverPause: false
+});
+$('.play').on('click', function () {
+  owl.trigger('play.owl.autoplay', [4000])
+})
+$('.stop').on('click', function () {
+  owl.trigger('stop.owl.autoplay')
+});
+var owl = $('#p2-slider');
+owl.owlCarousel({
+  items: 1,
+  loop: false,
+  nav: false,
+  smartSpeed: 1000,
+  autoplay: false,
+  autoplayTimeout: 4000,
+  autoplayHoverPause: false
+});
+$('.play').on('click', function () {
+  owl.trigger('play.owl.autoplay', [4000])
+})
+$('.stop').on('click', function () {
+  owl.trigger('stop.owl.autoplay')
+});
+
+
+//about-project-page-slider
 
 var owl = $('#project-slider');
 owl.owlCarousel({
