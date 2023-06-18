@@ -566,9 +566,9 @@ a {
   width: 50px;
   margin: -1px 0 0 -25px;
   overflow: hidden;
-  box-shadow: 0 0 0 2px #000, 0 0 5px;
-  -webkit-box-shadow: 0 0 0 2px #000, 0 0 5px;
-  -moz-box-shadow: 0 0 0 2px #000, 0 0 5px;
+  box-shadow: 0 0 0 2px #000, 0 0 2px;
+  -webkit-box-shadow: 0 0 0 2px #000, 0 0 2px;
+  -moz-box-shadow: 0 0 0 2px #000, 0 0 2px;
 }
 
 .project-hr {
@@ -577,7 +577,7 @@ a {
 
 .project-form-input {
   padding: 15px;
-  margin-top: 25px;
+  margin-bottom: 30px;
   width: 100%;
   border: 0.5px solid rgb(180, 179, 179);
   box-shadow: 8px 10px 8px -4px rgba(0, 0, 0, 0.75);
@@ -587,11 +587,24 @@ a {
 .form-control {
   width: 100%;
   border: 0.5px solid rgb(180, 179, 179);
-  box-shadow: 8px 10px 8px -4px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 8px 10px 8px -4px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 8px 10px 8px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 6px 8px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 6px 8px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 6px 8px -4px rgba(0, 0, 0, 0.75);
 }
 
+.c-form-inputs {
+  padding: 20px 50px 0;
+}
+
+.c-btn {
+  margin-left: 35px;
+  padding: 12px 0;
+  width: 150px;
+}
+
+.cnt-h1 {
+  margin-left: 50px !important;
+}
 /* --------------- */
 /* About Project Page */
 /* -------------- */
@@ -993,7 +1006,7 @@ a {
     margin-top: 10px !important;
   }
   .submit-contact {
-    padding: 24%;
+    padding: 30%;
   }
 
   .project-reverse {
@@ -1006,6 +1019,19 @@ a {
     font-size: 1.2rem;
   }
 
+  .c-form-inputs {
+    padding: 0px !important;
+  }
+
+  .c-btn {
+    margin-left: 0px;
+    padding: 10px 0;
+    width: 150px;
+    margin: 5px auto;
+  }
+  .cnt-h1 {
+    margin-left: 0px !important;
+  }
   .partners-items .partners-col {
     border-left: 0px;
   }
