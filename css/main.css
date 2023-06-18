@@ -538,7 +538,7 @@ a {
 }
 #project-slider .owl-dots {
   position: absolute;
-  bottom: 40%;
+  bottom: 28%;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -551,7 +551,7 @@ a {
 .project-hr {
   border: 0 solid #000;
   border-top-width: 1px;
-  margin: 60px auto;
+  margin: 40px auto;
   display: block;
   width: 10%;
   position: relative;
@@ -608,6 +608,14 @@ a {
 /* --------------- */
 /* About Project Page */
 /* -------------- */
+
+
+.projects-relative-h {
+  height: 90vh;
+}
+.abt-projects-relative-h {
+  height: 75vh;
+}
 
 /* --------------- */
 /* Constraction Update Page */
@@ -828,7 +836,7 @@ a {
   }
 
   .p-slider-inner-1 {
-    height: 80vh;
+    height: 50vh;
   }
   #project-slider .slide-content {
     position: absolute;
@@ -844,7 +852,7 @@ a {
   }
   #project-slider .owl-dots {
     position: absolute;
-    bottom: 340px;
+    bottom: 24%;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -895,9 +903,7 @@ a {
     padding: 250px 0 0 0;
   }
 
-  .about-title-contact {
-    font-size: 2rem;
-  }
+
 
   .container-constr .video-list-container {
     max-height: 600px;
@@ -907,6 +913,11 @@ a {
     border-radius: 5px;
     width: 100%;
     height: 540px;
+  }
+
+
+  .abt-projects-relative-h {
+    height: 65vh;
   }
 }
 
@@ -1001,6 +1012,15 @@ a {
     height: 50vh;
   }
 
+  #project-slider .owl-dots {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .view-btn {
     font-size: medium !important;
     margin-top: 10px !important;
@@ -1038,7 +1058,7 @@ a {
 
   .news-img {
     max-width: 100%;
-    height: 220px;
+    height: 35vh;
   }
   .p-links {
     text-align: center;
@@ -1067,10 +1087,22 @@ a {
   }
 
   .about-title-contact {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .project-hr {
     width: 25%;
+    margin: 30px auto;
+
+  }
+
+
+  
+  .projects-relative-h {
+    height: 75vh;
+  }
+
+  .abt-projects-relative-h {
+    height: 60vh;
   }
 
   .accordion-button:after {
