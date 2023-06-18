@@ -69,21 +69,17 @@
       <img class="img-fluid news-img" src="./images/contact-us-pic.jpg" />
     </div>
     <!-- img-thumbnail  -->
-    <div
-      class="container-fluid px-lg-5 px-sm-3 py-2 shadow-sm bg-white shadow-3">
+    <div class="container-fluid px-lg-5 px-sm-3 py-2 shadow-sm bg-white">
       <!-- fourm -->
-      <h1 class="text-dark fw-bold pt-5">Contact us</h1>
-      <h1 class="text-dark fw-bold about-title text-end px-4 m-2">
-        GET IN TOUCH
-      </h1>
+      <h1 class="text-dark fw-bold pt-5 m-4">Contact us</h1>
 
-      <form action="post" name="submit">
+      <form action="post" name="submit" class="shadow-3">
         <div class="row container-fluid">
-          <div class="col-md-6">
+          <div class="col-md-6 py-5 px-5">
             <select
               id="inquiry-type"
               name=""
-              class="project-form-input col-md-12">
+              class="project-form-input form-control col-md-12">
               <option value="" selected disabled hidden>
                 Select inquiry type :*
               </option>
@@ -93,32 +89,36 @@
               <option value="audi">Audi</option>
             </select>
             <input
-              class="project-form-input col-md-12"
+              class="project-form-input form-control col-md-12"
               type="text"
               placeholder="Name:*" />
             <input
-              class="project-form-input col-md-12"
+              class="project-form-input form-control col-md-12"
               type="text"
               placeholder="E-mail:*" />
             <input
-              class="project-form-input col-md-12"
+              class="project-form-input form-control col-md-12"
               type="text"
               placeholder="phone:*" />
           </div>
 
-          <div class="col-md-6 pt-4">
+          <div class="col-md-6 px-5">
+            <h1 class="text-dark fw-bold about-title text-center">
+              GET IN TOUCH
+            </h1>
             <textarea
               name=""
               id=""
               cols="60"
               rows="12"
-              style=""
+              style="resize: both"
+              placeholder="Message:*"
               class="form-control"></textarea>
           </div>
-
-          <div class="col-md-3">
+          <div class="col-md-12 text-left py-3 submit-contact">
             <input
-              class="btn btn-dark py-3 px-4 rounded-pill mt-5 fs-5 view-btn"
+              class="btn btn-dark rounded-pill px-4 py-3 view-btn"
+              style="margin-left: 35px"
               type="button"
               value="SUBMIT"
               name="submit" />
