@@ -452,6 +452,9 @@ a {
 .accordion-flush .accordion-item .accordion-button {
   padding: 5px !important;
 }
+.accordion-flush .accordion-item {
+  padding: 0 100px;
+}
 .button.accordion-button {
   font-size: x-large;
   font-weight: bolder;
@@ -736,7 +739,7 @@ a {
 /* footer */
 /* -------------- */
 .footer-phone-icon {
-  font-size: 25px;
+  font-size: 24px;
 }
 
 .footer-20192 {
@@ -760,6 +763,7 @@ a {
 }
 .footer-20192 .links li a {
   color: #666873;
+  font-size: 20px;
 }
 .footer-20192 .links li a:hover {
   color: #fff;
@@ -811,9 +815,7 @@ a {
 .footer-20192 .cta h3 {
   font-size: 20px;
 }
-.footer-phone-icon {
-  font-size: 20px;
-}
+
 
 .owl-theme .owl-dots .owl-dot {
   zoom: 1.3;
@@ -1064,6 +1066,10 @@ a {
     text-align: center;
   }
 
+  .accordion-flush .accordion-item {
+    padding: 0 !important;
+  }
+
   .c-form-inputs {
     padding: 0px !important;
   }
@@ -1149,6 +1155,14 @@ a {
     background-image: none !important;
   }
 
+  .footer-20192 .links li a {
+    color: #666873;
+    font-size: 18px;
+  }
+
+  .footer-phone-icon {
+    font-size: 18px;
+}
   /* Constraction  */
 
   .container-constr .main-video-container .main-video {
