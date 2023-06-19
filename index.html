@@ -27,426 +27,500 @@
   </head>
 
   <body>
-    <!-- header & navBar -->
-    <header>
-      <div
-        class="container-fluid fixed-top px-lg-5 px-sm-3 py-2 shadow-sm bg-white">
-        <div class="row project-reverse">
-          <div class="col-md-6">
-            <a href="/"
-              ><img src="images/Logo.png" class="img-logo" alt="jadeer-logo"
-            /></a>
-          </div>
+<!-- splash -->
+<div class="splash">
+  <img src="images/Logo.svg" class="splash_logo">
+<div class="splash_svg">
+  <svg width="100%" height="100%">
+    <rect width="100%" height="100%" >
+  </svg>
+</div>
+<div class="splash_minimize">
+  <svg width="100%" height="100%">
+    <rect width="100%" height="100%" >
+  </svg>
+</div>
+</div>
+<div class="splash-end">
 
-          <div class="col-md-6">
-            <div class="hamburger-menu">
-              <input id="menu__toggle" type="checkbox" />
-              <label class="menu__btn" for="menu__toggle">
-                <span></span>
-              </label>
-
-              <ul class="menu__box">
-                <li><a class="menu__item" href="index.html">Home</a></li>
-                <li><a class="menu__item" href="about-us.html">About Us</a></li>
-                <li>
-                  <a class="menu__item" href="event-news.html">Event&News</a>
-                </li>
-                <li><a class="menu__item" href="projects.html">Projects</a></li>
-                <li>
-                  <a class="menu__item" href="constr-up.html"
-                    >Constraction Update</a
-                  >
-                </li>
-                <li>
-                  <a class="menu__item" href="contact-us.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+ <!-- header & navBar -->
+ <header>
+  <div
+    class="container-fluid fixed-top px-lg-5 px-sm-3 py-2 shadow-sm bg-white">
+    <div class="row project-reverse">
+      <div class="col-md-6">
+        <a href="/"
+          ><img src="images/Logo.png" class="img-logo" alt="jadeer-logo"
+        /></a>
       </div>
-    </header>
-    <!-- header & navBar -->
 
-    <!-- first slider  -->
-    <div class="slider-inner-1">
-      <div class="owl-carousel owl-theme f-slider" id="f-slider">
-        <div class="position-relative" style="height: 90vh">
-          <div class="item">
-            <div class="slid-img">
-              <img
-                class="item-img"
-                src="./images/jadeerslider-pic.webp"
-                style="z-index: -1" />
-            </div>
-            <div class="slide-content">
-              <h3>Nam consequat felis</h3>
-              <p>
-                Maecenas euismod mauris pretium nibh vestibulum pellentesque.
-                <br />
-                Sed porta malesuada viverra, Pellentesque egestas faucibus
-                turpis.
-              </p>
+      <div class="col-md-6">
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn " for="menu__toggle">
+            <span></span>
+          </label>
+
+          <ul class="menu__box">
+            <li><a class="menu__item" href="index.html">Home</a></li>
+            <li><a class="menu__item" href="about-us.html">About Us</a></li>
+            <li>
+              <a class="menu__item" href="event-news.html">Event&News</a>
+            </li>
+            <li><a class="menu__item" href="projects.html">Projects</a></li>
+            <li>
+              <a class="menu__item" href="constr-up.html"
+                >Constraction Update</a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="contact-us.html">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-dark  rounded-pill float-end  book-now-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Book Now
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                    <!-- form -->
+                <div class="container-fluid px-lg-5 px-sm-3 py-4 ">
+                  <h2 class="text-dark fw-bold about-title-content text-center">BOOK NOW</h2>
+                  <hr class="project-hr" />
+                  <form action="post">
+                    <div class="row px-3">
+                      <input
+                        class="col-md-12 project-form-input"
+                        type="text"
+                        placeholder="Name:*" />
+                      <input
+                        class="col-md-12 project-form-input"
+                        type="text"
+                        placeholder="E-mail:*" />
+                      <input
+                        class="col-md-12 project-form-input "
+                        type="text"
+                        placeholder="phone:*" />
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Close</button>
+                <input class="btn btn-dark w-25 px-2 rounded-pill " type="button" value="SUBMIT" name="submit" />
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="position-relative" style="height: 90vh">
-          <div class="item">
-            <div class="slid-img">
-              <img
-                class="item-img"
-                src="./images/jadeerslider-pic.webp"
-                style="z-index: -1" />
-            </div>
-            <div class="slide-content">
-              <h3>Nam consequat felis</h3>
-              <p>
-                Maecenas euismod mauris pretium nibh vestibulum pellentesque.
-                <br />
-                Sed porta malesuada viverra, Pellentesque egestas faucibus
-                turpis.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="position-relative" style="height: 90vh">
-          <div class="item">
-            <div class="slid-img">
-              <img
-                class="item-img"
-                src="./images/jadeerslider-pic.webp"
-                style="z-index: -1" />
-            </div>
-            <div class="slide-content">
-              <h3>Nam consequat felis</h3>
-              <p>
-                Maecenas euismod mauris pretium nibh vestibulum pellentesque.
-                <br />
-                Sed porta malesuada viverra, Pellentesque egestas faucibus
-                turpis.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="position-relative" style="height: 90vh">
-          <div class="item">
-            <div class="slid-img">
-              <img
-                class="item-img"
-                src="./images/jadeerslider-pic.webp"
-                style="z-index: -1" />
-            </div>
-            <div class="slide-content">
-              <h3>Nam consequat felis</h3>
-              <p>
-                Maecenas euismod mauris pretium nibh vestibulum pellentesque.
-                <br />
-                Sed porta malesuada viverra, Pellentesque egestas faucibus
-                turpis.
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
+
     </div>
-    <!-- first slider  -->
+  </div>
+</header>
+<!-- header & navBar -->
 
-    <!-- secound slider  -->
-    <div class="container-fluid px-lg-5 px-sm-3 py-4">
-      <div class="text-left mb-3">
-        <h1 class="text-dark fw-bold .about-title-contact">Projects</h1>
-      </div>
-
-      <div class="slider-inner-2 reveal">
-        <div class="owl-carousel owl-theme sec-slider" id="sec-slider">
-          <div class="position-relative" style="height: 70vh">
-            <div class="item">
-              <div class="slid-img">
-                <img
-                  class="item-img"
-                  src="/images/jadeerslider-pic2.webp"
-                  style="z-index: -1" />
-              </div>
-
-              <div
-                class="slide-content animate__animated animate__fadeInLeft animate__slow reveal animate__delay-2s">
-                <div class="row project-reverse">
-                  <div class="col-md-3">
-                    <a
-                      href=""
-                      class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn animate__animated animate__fadeInUp animate__slow animate__delay-2s"
-                      >View More</a
-                    >
-                  </div>
-                  <div
-                    class="col-md-9 p-0 animate__animated animate__fadeInRight animate__slow animate__delay-2s">
-                    <h1 class="text-dark text-start fw-bold">Code</h1>
-                    <p class="text-dark text-start">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Asperiores assumenda repellendus provident sunt
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="position-relative" style="height: 70vh">
-            <div class="item">
-              <div class="slid-img">
-                <img
-                  class="item-img"
-                  src="/images/jadeerslider-pic2.webp"
-                  style="z-index: -1" />
-              </div>
-              <div class="slide-content">
-                <div class="row project-reverse">
-                  <div class="col-md-3">
-                    <a
-                      href=""
-                      class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn"
-                      >View More</a
-                    >
-                  </div>
-                  <div class="col-md-9 p-0">
-                    <h1 class="text-dark text-start fw-bold">Code</h1>
-                    <p class="text-dark text-start">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Asperiores assumenda repellendus provident sunt
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="position-relative" style="height: 70vh">
-            <div class="item">
-              <div class="slid-img">
-                <img
-                  class="item-img"
-                  src="/images/jadeerslider-pic2.webp"
-                  style="z-index: -1" />
-              </div>
-              <div class="slide-content">
-                <div class="row project-reverse">
-                  <div class="col-md-3">
-                    <a
-                      href=""
-                      class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn"
-                      >View More</a
-                    >
-                  </div>
-                  <div class="col-md-9 p-0">
-                    <h1 class="text-dark text-start fw-bold">Code</h1>
-                    <p class="text-dark text-start">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Asperiores assumenda repellendus provident sunt
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="position-relative" style="height: 70vh">
-            <div class="item">
-              <div class="slid-img">
-                <img
-                  class="item-img"
-                  src="/images/jadeerslider-pic2.webp"
-                  style="z-index: -1" />
-              </div>
-              <div class="slide-content">
-                <div class="row project-reverse">
-                  <div class="col-md-3">
-                    <a
-                      href=""
-                      class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn"
-                      >View More</a
-                    >
-                  </div>
-                  <div class="col-md-9 p-0">
-                    <h1 class="text-dark text-start fw-bold">Code</h1>
-                    <h2 class="texttt"></h2>
-                    <p class="text-dark text-start">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Asperiores assumenda repellendus provident sunt
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+<!-- first slider  -->
+<div class="slider-inner-1">
+  <div class="owl-carousel owl-theme f-slider" id="f-slider">
+    <div class="position-relative" style="height: 90vh">
+      <div class="item">
+        <div class="slid-img">
+          <img
+            class="item-img"
+            src="./images/jadeerslider-pic.webp"
+            style="z-index: -1" />
         </div>
-      </div>
-    </div>
-    <!-- secound slider  -->
-
-    <!-- about us  -->
-    <div class="container-fluid px-lg-5 px-sm-3 py-4 reveal">
-      <div class="row">
-        <div class="col-md-6 mb-3">
-          <h1 class="text-dark fw-bold .about-title-contact">About Jadeer</h1>
-          <p class="about-p">
-            Jadeer was brought to forever change the 
-            game of the real estate sector seterotype 
-            while enriching every apsect of its 
-            community`s life
-          </p>
-          <a
-            href=""
-            class="btn btn-dark py-2 px-4 rounded-pill mt-3 fs-5 view-btn"
-            >ABOUT US</a
-          >
-        </div>
-        <div class="col-md-6">
-          <img src="images/jadeer-home.webp" class="about-img" alt="" />
-        </div>
-      </div>
-    </div>
-    <!-- about us  -->
-
-    <!-- Partners Section  -->
-
-    <div class="container-fluid px-lg-5 px-sm-3 py-5 reveal">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 align-left col-lg-12">
-          <h1 class="text-dark fw-bold .about-title-contact">Our Partners</h1>
-          <p class="text-dark about-p">
-            We exclsivley and skillfully picked all of our property owners and
-            affiliates to only <br />
-            partners with the best entities to ensure we meet the benchmark of
-            our aspirations
+        <div class="slide-content">
+          <h3>Nam consequat felis</h3>
+          <p>
+            Maecenas euismod mauris pretium nibh vestibulum pellentesque.
+            <br />
+            Sed porta malesuada viverra, Pellentesque egestas faucibus
+            turpis.
           </p>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <!-- partners -->
-          <div class="partners-box">
-            <div class="partners-items row">
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mb-1">
-                <div class="partners-item">
-                  <div class="p-image">
-                    <a target="_blank" href=""
-                      ><img
-                        src="images/logos.png"
-                        alt="Constructa II White.png"
-                    /></a>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="partners-col col-xs-12 col-sm-6 col-md-4 col-lg-4 mb-1">
-                <div class="partners-item">
-                  <div class="p-image">
-                    <a target="_blank" href=""
-                      ><img src="images/logos1.png" alt="2B.png"
-                    /></a>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="partners-col col-xs-12 col-sm-6 col-md-4 col-lg-4 mb-1">
-                <div class="partners-item">
-                  <div class="p-image">
-                    <a target="_blank" href=""
-                      ><img src="images/logos2.png" alt="endency logo.png"
-                    /></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
-    <!-- Partners Section  -->
 
-    <!-- Contact Section  -->
-    <div class="container-fluid px-lg-5 px-sm-3 py-4 reveal foot-contact">
-      <div class="row">
-        <div class="col-md-12 mb-3">
-          <h1 class="text-dark fw-bold .about-title-contact">Get In Touch</h1>
-          <p class="about-p-contact">
-            If You Have any quetion feel free to contact us
+    <div class="position-relative" style="height: 90vh">
+      <div class="item">
+        <div class="slid-img">
+          <img
+            class="item-img"
+            src="./images/jadeerslider-pic.webp"
+            style="z-index: -1" />
+        </div>
+        <div class="slide-content">
+          <h3>Nam consequat felis</h3>
+          <p>
+            Maecenas euismod mauris pretium nibh vestibulum pellentesque.
+            <br />
+            Sed porta malesuada viverra, Pellentesque egestas faucibus
+            turpis.
           </p>
-          <a
-            href=""
-            class="btn btn-dark py-2 px-4 rounded-pill mt-3 fs-5 view-btn"
-            >Contact US</a
-          >
         </div>
       </div>
     </div>
 
-    <div class="foot-img">
-      <img class="img-fluid" src="/images/m-pic.webp" alt="jadeer-mountin-pc" />
-    </div>
-    <!-- Contact Section  -->
-
-    <!-- footer -->
-
-    <div
-      class="container-fluid px-lg-5 px-sm-3 py-4"
-      style="background-color: black">
-      <div class="col-lg col-img">
-        <a href="/"><img src="./images/white-logo.png" class="img-logo" /></a>
+    <div class="position-relative" style="height: 90vh">
+      <div class="item">
+        <div class="slid-img">
+          <img
+            class="item-img"
+            src="./images/jadeerslider-pic.webp"
+            style="z-index: -1" />
+        </div>
+        <div class="slide-content">
+          <h3>Nam consequat felis</h3>
+          <p>
+            Maecenas euismod mauris pretium nibh vestibulum pellentesque.
+            <br />
+            Sed porta malesuada viverra, Pellentesque egestas faucibus
+            turpis.
+          </p>
+        </div>
       </div>
-      <footer class="footer-20192 pl-5">
-        <div class="site-section">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-md-6 p-links">
-                <ul class="list-unstyled links">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/projects.html">Our Projects</a></li>
-                  <li><a href="/constr-up.html">Construction update</a></li>
-                </ul>
+    </div>
+
+    <div class="position-relative" style="height: 90vh">
+      <div class="item">
+        <div class="slid-img">
+          <img
+            class="item-img"
+            src="./images/jadeerslider-pic.webp"
+            style="z-index: -1" />
+        </div>
+        <div class="slide-content">
+          <h3>Nam consequat felis</h3>
+          <p>
+            Maecenas euismod mauris pretium nibh vestibulum pellentesque.
+            <br />
+            Sed porta malesuada viverra, Pellentesque egestas faucibus
+            turpis.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- first slider  -->
+
+<!-- secound slider  -->
+<div class="container-fluid px-lg-5 px-sm-3 home-project-sec " >
+  <div class="text-left mb-3">
+    <h1 class="text-dark fw-bold .about-title-contact">Projects</h1>
+  </div>
+
+  <div class="slider-inner-2 reveal">
+    <div class="owl-carousel owl-theme sec-slider" id="sec-slider">
+      <div class="position-relative" style="height: 70vh">
+        <div class="item">
+          <div class="slid-img">
+            <img
+              class="item-img"
+              src="/images/jadeerslider-pic2.webp"
+              style="z-index: -1" />
+          </div>
+
+          <div
+            class="slide-content animate__animated animate__fadeInLeft animate__slow reveal animate__delay-2s">
+            <div class="row project-reverse">
+              <div class="col-md-3">
+                <a
+                  href=""
+                  class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn animate__animated animate__fadeInUp animate__slow animate__delay-2s"
+                  >View More</a
+                >
               </div>
-              <div class="col-lg-4 col-md-6">
-                <ul class="list-unstyled links p-links">
-                  <li><a href="event-news.html">Events & news</a></li>
-                  <li><a href="/about-us.html">About us</a></li>
-                  <li><a href="/contact-us.html">Contact us</a></li>
-                </ul>
-              </div>
-              <div class="col-lg pt-2">
-                <h2 class="text-center">
-                  <span class="icon-phone footer-phone-icon px-2"></span>19820
-                </h2>
-                <ul class="list-unstyled social text-center p-1">
-                  <li>
-                    <a href="#" class="m-2"
-                      ><span class="icon-facebook"></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="m-2"
-                      ><span class="icon-twitter"></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="m-2"
-                      ><span class="icon-linkedin"></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="m-2"
-                      ><span class="icon-instagram"></span
-                    ></a>
-                  </li>
-                </ul>
+              <div
+                class="col-md-9 p-0 animate__animated animate__fadeInRight animate__slow animate__delay-2s">
+                <h1 class="text-dark text-start fw-bold">Code</h1>
+                <p class="text-dark text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Asperiores assumenda repellendus provident sunt
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+
+      <div class="position-relative" style="height: 70vh">
+        <div class="item">
+          <div class="slid-img">
+            <img
+              class="item-img"
+              src="/images/jadeerslider-pic2.webp"
+              style="z-index: -1" />
+          </div>
+          <div class="slide-content">
+            <div class="row project-reverse">
+              <div class="col-md-3">
+                <a
+                  href=""
+                  class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn"
+                  >View More</a
+                >
+              </div>
+              <div class="col-md-9 p-0">
+                <h1 class="text-dark text-start fw-bold">Code</h1>
+                <p class="text-dark text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Asperiores assumenda repellendus provident sunt
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="position-relative" style="height: 70vh">
+        <div class="item">
+          <div class="slid-img">
+            <img
+              class="item-img"
+              src="/images/jadeerslider-pic2.webp"
+              style="z-index: -1" />
+          </div>
+          <div class="slide-content">
+            <div class="row project-reverse">
+              <div class="col-md-3">
+                <a
+                  href=""
+                  class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn"
+                  >View More</a
+                >
+              </div>
+              <div class="col-md-9 p-0">
+                <h1 class="text-dark text-start fw-bold">Code</h1>
+                <p class="text-dark text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Asperiores assumenda repellendus provident sunt
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="position-relative" style="height: 70vh">
+        <div class="item">
+          <div class="slid-img">
+            <img
+              class="item-img"
+              src="/images/jadeerslider-pic2.webp"
+              style="z-index: -1" />
+          </div>
+          <div class="slide-content">
+            <div class="row project-reverse">
+              <div class="col-md-3">
+                <a
+                  href=""
+                  class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn"
+                  >View More</a
+                >
+              </div>
+              <div class="col-md-9 p-0">
+                <h1 class="text-dark text-start fw-bold">Code</h1>
+                <h2 class="texttt"></h2>
+                <p class="text-dark text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Asperiores assumenda repellendus provident sunt
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
+<!-- secound slider  -->
+
+<!-- about us  -->
+<div class="container-fluid px-lg-5 px-sm-3 py-4 reveal">
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <h1 class="text-dark fw-bold .about-title-contact">About Jadeer</h1>
+      <p class="about-p">
+        Jadeer was brought to forever change the 
+        game of the real estate sector seterotype 
+        while enriching every apsect of its 
+        community`s life
+      </p>
+      <a
+        href=""
+        class="btn btn-dark py-2 px-4 rounded-pill mt-3 fs-5 view-btn"
+        >ABOUT US</a
+      >
+    </div>
+    <div class="col-md-6">
+      <img src="images/jadeer-home.webp" class="about-img" alt="" />
+    </div>
+  </div>
+</div>
+<!-- about us  -->
+
+<!-- Partners Section  -->
+
+<div class="container-fluid px-lg-5 px-sm-3 py-5 reveal">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 align-left col-lg-12">
+      <h1 class="text-dark fw-bold .about-title-contact">Our Partners</h1>
+      <p class="text-dark about-p">
+        We exclsivley and skillfully picked all of our property owners and
+        affiliates to only <br />
+        partners with the best entities to ensure we meet the benchmark of
+        our aspirations
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <!-- partners -->
+      <div class="partners-box">
+        <div class="partners-items row">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+            <div class="partners-item">
+              <div class="p-image">
+                <a target="_blank" href=""
+                  ><img
+                    src="images/logos.png"
+                    alt="Constructa II White.png"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="partners-col col-xs-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+            <div class="partners-item">
+              <div class="p-image">
+                <a target="_blank" href=""
+                  ><img src="images/logos1.png" alt="2B.png"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="partners-col col-xs-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+            <div class="partners-item">
+              <div class="p-image">
+                <a target="_blank" href=""
+                  ><img src="images/logos2.png" alt="endency logo.png"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Partners Section  -->
+
+<!-- Contact Section  -->
+<div class="container-fluid px-lg-5 px-sm-3 py-4 reveal foot-contact">
+  <div class="row">
+    <div class="col-md-12 mb-3">
+      <h1 class="text-dark fw-bold .about-title-contact">Get In Touch</h1>
+      <p class="about-p-contact">
+        If You Have any quetion feel free to contact us
+      </p>
+      <a
+        href=""
+        class="btn btn-dark py-2 px-4 rounded-pill mt-3 fs-5 view-btn"
+        >Contact US</a
+      >
+    </div>
+  </div>
+</div>
+
+<div class="foot-img">
+  <img class="img-fluid" src="/images/m-pic.webp" alt="jadeer-mountin-pc" />
+</div>
+<!-- Contact Section  -->
+
+<!-- footer -->
+
+<div
+  class="container-fluid px-lg-5 px-sm-3 py-4"
+  style="background-color: black">
+  <div class="mb-3 col-img">
+    <a href="/"><img src="./images/white-logo.png" class="img-logo" /></a>
+  </div>
+  <footer class="footer-20192 pl-5">
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+
+          <div class=" col-md-6 text-center p-links">
+            <ul class="list-unstyled links">
+              <li><a href="/">Home</a></li>
+              <li><a href="/projects.html">Our Projects</a></li>
+              <li><a href="/constr-up.html">Construction update</a></li>
+            </ul>
+          </div>
+
+          <div class=" col-md-6 text-center">
+            <ul class="list-unstyled links p-links">
+              <li><a href="event-news.html">Events & news</a></li>
+              <li><a href="/about-us.html">About us</a></li>
+              <li><a href="/contact-us.html">Contact us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-12 text-center pt-2 mb-3">
+            <h2 class="text-center">
+              <span class="icon-phone footer-phone-icon pe-2"></span>19820
+            </h2>
+            <ul class="list-unstyled social text-center p-1">
+              <li>
+                <a href="#" class="m-2"
+                  ><span class="icon-facebook"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="m-2"
+                  ><span class="icon-twitter"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="m-2"
+                  ><span class="icon-linkedin"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="m-2"
+                  ><span class="icon-instagram"></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+</div>
+<!-- splash -->
+
+
+
+
+   
 
     <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>

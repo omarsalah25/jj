@@ -24,462 +24,526 @@
   </head>
 
   <body>
-    <!-- header & navBar -->
-    <header>
-      <div
-        class="container-fluid fixed-top px-lg-5 px-sm-3 py-2 shadow-sm bg-white">
-        <div class="row project-reverse">
-          <div class="col-md-6">
-            <a href="/">
-              <img src="images/Logo.png" class="img-logo" alt="logo"
-            /></a>
-          </div>
-          <div class="col-md-6">
-            <div class="hamburger-menu">
-              <input id="menu__toggle" type="checkbox" />
-              <label class="menu__btn" for="menu__toggle">
-                <span></span>
-              </label>
-
-              <ul class="menu__box">
-                <li><a class="menu__item" href="index.html">Home</a></li>
-                <li><a class="menu__item" href="about-us.html">About Us</a></li>
-                <li>
-                  <a class="menu__item" href="event-news.html">Event&News</a>
-                </li>
-                <li>
-                  <a class="menu__item" href="projects.html">Projects</a>
-                </li>
-                <li>
-                  <a class="menu__item" href="constr-up.html"
-                    >Constraction Update</a
-                  >
-                </li>
-                <li>
-                  <a class="menu__item" href="contact-us.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- img-thumbnail  -->
-    <div class="news-img-div" style="padding-top: 70px">
-      <img class="img-fluid news-img" src="./images/about-us-main.jpg" />
+    <div class="splash">
+      <img src="images/Logo.svg" class="splash_logo">
+    <div class="splash_svg">
+      <svg width="100%" height="100%">
+        <rect width="100%" height="100%" >
+      </svg>
     </div>
-    <!-- img-thumbnail  -->
-    <!-- header & navBar -->
+    <div class="splash_minimize">
+      <svg width="100%" height="100%">
+        <rect width="100%" height="100%" >
+      </svg>
+    </div>
+  </div>
+  <div class="splash-end">
+ <!-- header & navBar -->
+ <header>
+  <div
+    class="container-fluid fixed-top px-lg-5 px-sm-3 py-2 shadow-sm bg-white">
+    <div class="row project-reverse">
+      <div class="col-md-6">
+        <a href="/"
+          ><img src="images/Logo.png" class="img-logo" alt="jadeer-logo"
+        /></a>
+      </div>
 
-    <div class="container-fluid px-lg-5 px-sm-3 py-4 reveal">
-      <div class="row">
-        <div class="col-md-12 mb-3">
-          <h1 class="text-dark fw-bold about-title-contact">About Us</h1>
+      <div class="col-md-6">
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn " for="menu__toggle">
+            <span></span>
+          </label>
+
+          <ul class="menu__box">
+            <li><a class="menu__item" href="index.html">Home</a></li>
+            <li><a class="menu__item" href="about-us.html">About Us</a></li>
+            <li>
+              <a class="menu__item" href="event-news.html">Event&News</a>
+            </li>
+            <li><a class="menu__item" href="projects.html">Projects</a></li>
+            <li>
+              <a class="menu__item" href="constr-up.html"
+                >Constraction Update</a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="contact-us.html">Contact</a>
+            </li>
+          </ul>
+
         </div>
 
-        <div class="container">
-          <div class="accordion accordion-flush " id="accordionExample">
-            <!-- accordion-item -->
-            <div class="accordion-item mb-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
-              <h2 class="accordion-header" id="headingOne">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne"
-                  aria-expanded="false"
-                  aria-controls="collapseOne">
-                  CEO Words
-                </button>
-              </h2>
-              <div
-                id="collapseOne"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <div class="py-3">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="text-dark fw-bold">
-                          <h3>CEO Words</h3>
-                        </div>
-                        <p class="text-dark about-p">
-                          We exclsivley and skillfully picked all of our
-                          property owners and affiliates to only <br />
-                          partners with the best entities to ensure we meet the
-                          benchmark of our aspirations
-                        </p>
-                      </div>
-                      <div class="col-md-6">
-                        <img
-                          class="img-fluid news-img"
-                          src="./images/CEO-pic.jpg" />
-                      </div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-dark  rounded-pill float-end  book-now-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Book Now
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                    <!-- form -->
+                <div class="container-fluid px-lg-5 px-sm-3 py-4 ">
+                  <h2 class="text-dark fw-bold about-title-content text-center">BOOK NOW</h2>
+                  <hr class="project-hr" />
+                  <form action="post">
+                    <div class="row px-3">
+                      <input
+                        class="col-md-12 project-form-input"
+                        type="text"
+                        placeholder="Name:*" />
+                      <input
+                        class="col-md-12 project-form-input"
+                        type="text"
+                        placeholder="E-mail:*" />
+                      <input
+                        class="col-md-12 project-form-input "
+                        type="text"
+                        placeholder="phone:*" />
                     </div>
-                  </div>
+                  </form>
                 </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Close</button>
+                <input class="btn btn-dark w-25 px-2 rounded-pill " type="button" value="SUBMIT" name="submit" />
               </div>
             </div>
-            <!-- accordion-item -->
-            <div class="accordion-item mb-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
-              <h2 class="accordion-header" id="headingTwo">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo">
-                  Our Mission
-                </button>
-              </h2>
-              <div
-                id="collapseTwo"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <div class="py-3">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <h3 class="text-dark fw-bold">Our Mission</h3>
-                        <p class="text-dark about-p">
-                          We exclsivley and skillfully picked all of our
-                          property owners and affiliates to only <br />
-                          partners with the best entities to ensure we meet the
-                          benchmark of our aspirations
-                        </p>
-                      </div>
-                      <div class="col-md-6">
-                        <img
-                          class="img-fluid news-img"
-                          src="./images/Our-mission.jpg" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- accordion-item -->
-            <!-- accordion-item -->
-
-            <div class="accordion-item mb-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
-              <h2 class="accordion-header" id="headingThree">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree"
-                  aria-expanded="false"
-                  aria-controls="collapseThree">
-                  Our Vision
-                </button>
-              </h2>
-              <div
-                id="collapseThree"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <div class="py-3">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <h3 class="text-dark fw-bold">Our Vision</h3>
-                        <p class="text-dark about-p">
-                          We exclusively and skillfully picked all of our
-                          property owners and affiliates to only <br />
-                          partners with the best entities to ensure we meet the
-                          benchmark of our aspirations
-                        </p>
-                      </div>
-                      <div class="col-md-6">
-                        <img
-                          class="img-fluid news-img"
-                          src="./images/Vision-pic.jpg" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- accordion-item -->
-            <!-- accordion-item -->
-
-            <div class="accordion-item mb-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
-              <h2 class="accordion-header" id="headingFour">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour"
-                  aria-expanded="false"
-                  aria-controls="collapseFour">
-                  Our Philosophy
-                </button>
-              </h2>
-              <div
-                id="collapseFour"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <div class="py-3">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <h3 class="text-dark fw-bold">Our Philosophy</h3>
-                        <p class="text-dark about-p">
-                          We exclsivley and skillfully picked all of our
-                          property owners and affiliates to only <br />
-                          partners with the best entities to ensure we meet the
-                          benchmark of our aspirations
-                        </p>
-                      </div>
-                      <div class="col-md-6">
-                        <img
-                          class="img-fluid news-img"
-                          src="./images/Our Philosophy-pic.jpg" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- accordion-item -->
-            <!-- accordion-item -->
-
-            <div class="accordion-item mb-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
-              <h2 class="accordion-header" id="headingFive">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseFive"
-                  aria-expanded="false"
-                  aria-controls="collapseFive">
-                  Core Values
-                </button>
-              </h2>
-
-              <div
-                id="collapseFive"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingFive"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <div class="py-3">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="about-core-title">
-                          <h3>CUSTOMER FIRST</h3>
-                        </div>
-                        <p class="text-dark about-p">
-                          Jadeer was brought to forever change the game of the
-                          real estate sector stereotype while enriching every
-                          aspect of its community's life.
-                        </p>
-                      </div>
-                      <div class="col-md-6">
-                        <img
-                          class="img-fluid news-img"
-                          src="./images/Core Values-1.jpg" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="py-3">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <img
-                          class="img-fluid news-img"
-                          src="./images/Core Values-2.jpg" />
-                      </div>
-                      <div class="col-md-6">
-                        <div class="about-core-title mt-2">
-                          <h3>RESPONSIBILITY</h3>
-                        </div>
-                        <p class="text-dark about-p">
-                          Jadeer was brought to forever change the game of the
-                          real estate sector stereotype while enriching every
-                          aspect of its community's life.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="py-3">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="about-core-title">
-                          <h3>ONE TEAM</h3>
-                        </div>
-                        <p class="text-dark about-p">
-                          Jadeer was brought to forever change the game of the
-                          real estate sector stereotype while enriching every
-                          aspect of its community's life.
-                        </p>
-                      </div>
-                      <div class="col-md-6">
-                        <img
-                          class="img-fluid news-img"
-                          src="./images/Core Values-3.jpg" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="py-3">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <img
-                          class="img-fluid news-img"
-                          src="./images/Core Values-4.jpg" />
-                      </div>
-                      <div class="col-md-6">
-                        <div class="about-core-title mt-2">
-                          <h3>ENTREPRENEURSHIP</h3>
-                        </div>
-                        <p class="text-dark about-p">
-                          Jadeer was brought to forever change the game of the
-                          real estate sector stereotype while enriching every
-                          aspect of its community's life.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="py-3">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="about-core-title">
-                          <h3>INTEGRITY</h3>
-                        </div>
-                        <p class="text-dark about-p">
-                          Jadeer was brought to forever change the game of the
-                          real estate sector stereotype while enriching every
-                          aspect of its community's life.
-                        </p>
-                      </div>
-                      <div class="col-md-6">
-                        <img
-                          class="img-fluid news-img"
-                          src="./images/Core Values-5.jpg" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- accordion-item -->
-
-            </div>
-
-            <!-- accordion-item -->
-
-            <div class="accordion-item mt-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
-              <h2 class="accordion-header" id="headingSix">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseSix"
-                  aria-expanded="false"
-                  aria-controls="collapseSix">
-                  Our Companies
-                </button>
-              </h2>
-              <div
-                id="collapseSix"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingSix"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <div class="py-3">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <img
-                          class="img-fluid news-img"
-                          src="./images/Our Philosophy-pic.jpg" />
-                      </div>
-                      <div class="col-md-6">
-                        <h1 class="text-dark fw-bold about-title-contact">
-                          Our Companies
-                        </h1>
-                        <p class="text-dark about-p">
-                          We exclsivley and skillfully picked all of our
-                          property owners and affiliates to only <br />
-                          partners with the best entities to ensure we meet
-                          the benchmark of our aspirations
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- accordion-item -->
           </div>
         </div>
+
       </div>
+
+    </div>
+  </div>
+</header>
+<!-- img-thumbnail  -->
+<div class="news-img-div" style="padding-top: 70px">
+  <img class="img-fluid news-img" src="./images/about-us-main.jpg" />
+</div>
+<!-- img-thumbnail  -->
+<!-- header & navBar -->
+
+<div class="container-fluid px-lg-5 px-sm-3 py-4 reveal">
+  <div class="row">
+    <div class="col-md-12 mb-3">
+      <h1 class="text-dark fw-bold about-title-contact">About Us</h1>
     </div>
 
-    <!-- footer -->
-    <div
-      class="container-fluid px-lg-5 px-sm-3 py-4"
-      style="background-color: black">
-      <div class="mb-3 col-img">
-        <a href="/"><img src="./images/white-logo.png" class="img-logo" /></a>
-      </div>
-      <footer class="footer-20192 pl-5">
-        <div class="site-section">
-          <div class="container">
-            <div class="row">
-
-              <div class=" col-md-6 text-center p-links">
-                <ul class="list-unstyled links">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/projects.html">Our Projects</a></li>
-                  <li><a href="/constr-up.html">Construction update</a></li>
-                </ul>
+    <div class="container">
+      <div class="accordion accordion-flush " id="accordionExample">
+        <!-- accordion-item -->
+        <div class="accordion-item mb-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne">
+              CEO Words
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="py-3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="text-dark fw-bold">
+                      <h3>CEO Words</h3>
+                    </div>
+                    <p class="text-dark about-p">
+                      We exclsivley and skillfully picked all of our
+                      property owners and affiliates to only <br />
+                      partners with the best entities to ensure we meet the
+                      benchmark of our aspirations
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <img
+                      class="img-fluid news-img"
+                      src="./images/CEO-pic.jpg" />
+                  </div>
+                </div>
               </div>
-
-              <div class=" col-md-6 text-center">
-                <ul class="list-unstyled links p-links">
-                  <li><a href="event-news.html">Events & news</a></li>
-                  <li><a href="/about-us.html">About us</a></li>
-                  <li><a href="/contact-us.html">Contact us</a></li>
-                </ul>
-              </div>
-
-              <div class="col-md-12 text-center pt-2 mb-3">
-                <h2 class="text-center">
-                  <span class="icon-phone footer-phone-icon pe-2"></span>19820
-                </h2>
-                <ul class="list-unstyled social text-center p-1">
-                  <li>
-                    <a href="#" class="m-2"
-                      ><span class="icon-facebook"></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="m-2"
-                      ><span class="icon-twitter"></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="m-2"
-                      ><span class="icon-linkedin"></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="m-2"
-                      ><span class="icon-instagram"></span
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-
             </div>
           </div>
         </div>
-      </footer>
-    </div>
+        <!-- accordion-item -->
+        <div class="accordion-item mb-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo">
+              Our Mission
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="py-3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h3 class="text-dark fw-bold">Our Mission</h3>
+                    <p class="text-dark about-p">
+                      We exclsivley and skillfully picked all of our
+                      property owners and affiliates to only <br />
+                      partners with the best entities to ensure we meet the
+                      benchmark of our aspirations
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <img
+                      class="img-fluid news-img"
+                      src="./images/Our-mission.jpg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion-item -->
+        <!-- accordion-item -->
 
-    <!-- footer -->
+        <div class="accordion-item mb-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree">
+              Our Vision
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="py-3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h3 class="text-dark fw-bold">Our Vision</h3>
+                    <p class="text-dark about-p">
+                      We exclusively and skillfully picked all of our
+                      property owners and affiliates to only <br />
+                      partners with the best entities to ensure we meet the
+                      benchmark of our aspirations
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <img
+                      class="img-fluid news-img"
+                      src="./images/Vision-pic.jpg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion-item -->
+        <!-- accordion-item -->
+
+        <div class="accordion-item mb-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour">
+              Our Philosophy
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="py-3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h3 class="text-dark fw-bold">Our Philosophy</h3>
+                    <p class="text-dark about-p">
+                      We exclsivley and skillfully picked all of our
+                      property owners and affiliates to only <br />
+                      partners with the best entities to ensure we meet the
+                      benchmark of our aspirations
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <img
+                      class="img-fluid news-img"
+                      src="./images/Our Philosophy-pic.jpg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion-item -->
+        <!-- accordion-item -->
+
+        <div class="accordion-item mb-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
+          <h2 class="accordion-header" id="headingFive">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive">
+              Core Values
+            </button>
+          </h2>
+
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="py-3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="about-core-title">
+                      <h3>CUSTOMER FIRST</h3>
+                    </div>
+                    <p class="text-dark about-p">
+                      Jadeer was brought to forever change the game of the
+                      real estate sector stereotype while enriching every
+                      aspect of its community's life.
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <img
+                      class="img-fluid news-img"
+                      src="./images/Core Values-1.jpg" />
+                  </div>
+                </div>
+              </div>
+              <div class="py-3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      class="img-fluid news-img"
+                      src="./images/Core Values-2.jpg" />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="about-core-title mt-2">
+                      <h3>RESPONSIBILITY</h3>
+                    </div>
+                    <p class="text-dark about-p">
+                      Jadeer was brought to forever change the game of the
+                      real estate sector stereotype while enriching every
+                      aspect of its community's life.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="py-3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="about-core-title">
+                      <h3>ONE TEAM</h3>
+                    </div>
+                    <p class="text-dark about-p">
+                      Jadeer was brought to forever change the game of the
+                      real estate sector stereotype while enriching every
+                      aspect of its community's life.
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <img
+                      class="img-fluid news-img"
+                      src="./images/Core Values-3.jpg" />
+                  </div>
+                </div>
+              </div>
+              <div class="py-3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      class="img-fluid news-img"
+                      src="./images/Core Values-4.jpg" />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="about-core-title mt-2">
+                      <h3>ENTREPRENEURSHIP</h3>
+                    </div>
+                    <p class="text-dark about-p">
+                      Jadeer was brought to forever change the game of the
+                      real estate sector stereotype while enriching every
+                      aspect of its community's life.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="py-3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="about-core-title">
+                      <h3>INTEGRITY</h3>
+                    </div>
+                    <p class="text-dark about-p">
+                      Jadeer was brought to forever change the game of the
+                      real estate sector stereotype while enriching every
+                      aspect of its community's life.
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <img
+                      class="img-fluid news-img"
+                      src="./images/Core Values-5.jpg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- accordion-item -->
+
+        </div>
+
+        <!-- accordion-item -->
+
+        <div class="accordion-item mt-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
+          <h2 class="accordion-header" id="headingSix">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="false"
+              aria-controls="collapseSix">
+              Our Companies
+            </button>
+          </h2>
+          <div
+            id="collapseSix"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingSix"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="py-3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      class="img-fluid news-img"
+                      src="./images/Our Philosophy-pic.jpg" />
+                  </div>
+                  <div class="col-md-6">
+                    <h1 class="text-dark fw-bold about-title-contact">
+                      Our Companies
+                    </h1>
+                    <p class="text-dark about-p">
+                      We exclsivley and skillfully picked all of our
+                      property owners and affiliates to only <br />
+                      partners with the best entities to ensure we meet
+                      the benchmark of our aspirations
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion-item -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+<div
+  class="container-fluid px-lg-5 px-sm-3 py-4"
+  style="background-color: black">
+  <div class="mb-3 col-img">
+    <a href="/"><img src="./images/white-logo.png" class="img-logo" /></a>
+  </div>
+  <footer class="footer-20192 pl-5">
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+
+          <div class=" col-md-6 text-center p-links">
+            <ul class="list-unstyled links">
+              <li><a href="/">Home</a></li>
+              <li><a href="/projects.html">Our Projects</a></li>
+              <li><a href="/constr-up.html">Construction update</a></li>
+            </ul>
+          </div>
+
+          <div class=" col-md-6 text-center">
+            <ul class="list-unstyled links p-links">
+              <li><a href="event-news.html">Events & news</a></li>
+              <li><a href="/about-us.html">About us</a></li>
+              <li><a href="/contact-us.html">Contact us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-12 text-center pt-2 mb-3">
+            <h2 class="text-center">
+              <span class="icon-phone footer-phone-icon pe-2"></span>19820
+            </h2>
+            <ul class="list-unstyled social text-center p-1">
+              <li>
+                <a href="#" class="m-2"
+                  ><span class="icon-facebook"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="m-2"
+                  ><span class="icon-twitter"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="m-2"
+                  ><span class="icon-linkedin"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="m-2"
+                  ><span class="icon-instagram"></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+   <!-- footer -->
+ 
+  </div>
+  <!-- splash -->
+   
+ 
     <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>
   </body>
