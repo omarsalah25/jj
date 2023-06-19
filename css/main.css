@@ -1217,6 +1217,29 @@ a {
   .container-constr .video-list-container {
     max-height: 480px;
   }
+  .splash_logo {
+    position: absolute;
+    margin: -15px 0 0 -25px;
+    top: 45vh;
+    z-index: 5;
+    left: 40vw;
+    width: 220px;
+    text-align: center;
+    height: 125px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 1;
+    will-change: opacity;
+    -webkit-animation: logo 0.3s ease-in 1.5s forwards,
+      off 0.6s ease-in-out 3.2s forwards;
+    -moz-animation: logo 0.3s ease-in 1.5s forwards,
+      off 0.6s ease-in-out 3.2s forwards;
+    -o-animation: logo 0.3s ease-in 1.5s forwards,
+      off 0.6s ease-in-out 3.2s forwards;
+    animation: logo 0.3s ease-in 1.5s forwards,
+      off 0.6s ease-in-out 3.2s forwards;
+  }
 }
 
 /* splash screen */
@@ -1250,13 +1273,13 @@ body {
 }
 .splash_logo {
   position: absolute;
-  margin: -15px 0 0 -25px;
-  top: 45vh;
+  margin: -15px 0 0 -55px;
+  top: 40vh;
   z-index: 5;
-  left: 44vw;
-  width: 110px;
+  left: 43vw;
+  width: 200px;
   text-align: center;
-  height: 125px;
+  height: 150px;
   font-size: 26px;
   font-weight: 600;
   color: #fff;
