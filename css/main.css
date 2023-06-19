@@ -1328,7 +1328,7 @@ body {
 .splash_svg svg rect {
   width: 100%;
   height: 100%;
-  fill: #ffffff;
+  fill: transparent;
   stroke: 0;
   -webkit-clip-path: polygon(45vw 40vh, 55vw 40vh, 55vw 60vh, 45vw 60vh);
   clip-path: polygon(45vw 40vh, 55vw 40vh, 55vw 60vh, 45vw 60vh);
