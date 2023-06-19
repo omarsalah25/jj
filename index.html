@@ -19,25 +19,28 @@
       rel="stylesheet"
       href="OwlCarousel2-2.3.4\dist\assets\owl.theme.default.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <title>Jadeer</title>
   </head>
 
-  <body>
+  <body data-aos-easing="" data-aos-duration="0" data-aos-delay="0">
+
+    
+
 <!-- splash -->
 <div class="splash">
   <img src="images/Logo.svg" class="splash_logo">
 <div class="splash_svg">
-  <svg width="100%" height="100%">
-    <rect width="100%" height="100%" >
+  <svg width="80%" height="100%">
+    <rect width="80%" height="100%" >
   </svg>
 </div>
 <div class="splash_minimize">
-  <svg width="100%" height="100%">
-    <rect width="100%" height="100%" >
+  <svg width="80%" height="100%">
+    <rect width="80%" height="100%" >
   </svg>
 </div>
 </div>
@@ -47,7 +50,7 @@
  <header>
   <div
     class="container-fluid fixed-top px-lg-5 px-sm-3 py-2 shadow-sm bg-white">
-    <div class="row project-reverse">
+    <div class="row project-reverse-home">
       <div class="col-md-6">
         <a href="/"
           ><img src="images/Logo.png" class="img-logo" alt="jadeer-logo"
@@ -133,7 +136,7 @@
 <!-- header & navBar -->
 
 <!-- first slider  -->
-<div class="slider-inner-1">
+<div class="slider-inner-1" >
   <div class="owl-carousel owl-theme f-slider" id="f-slider">
     <div class="position-relative" style="height: 90vh">
       <div class="item">
@@ -143,7 +146,7 @@
             src="./images/jadeerslider-pic.webp"
             style="z-index: -1" />
         </div>
-        <div class="slide-content">
+        <div class="slide-content" >
           <h3>Nam consequat felis</h3>
           <p>
             Maecenas euismod mauris pretium nibh vestibulum pellentesque.
@@ -163,7 +166,7 @@
             src="./images/jadeerslider-pic.webp"
             style="z-index: -1" />
         </div>
-        <div class="slide-content">
+        <div class="slide-content" >
           <h3>Nam consequat felis</h3>
           <p>
             Maecenas euismod mauris pretium nibh vestibulum pellentesque.
@@ -183,7 +186,7 @@
             src="./images/jadeerslider-pic.webp"
             style="z-index: -1" />
         </div>
-        <div class="slide-content">
+        <div class="slide-content" >
           <h3>Nam consequat felis</h3>
           <p>
             Maecenas euismod mauris pretium nibh vestibulum pellentesque.
@@ -203,7 +206,7 @@
             src="./images/jadeerslider-pic.webp"
             style="z-index: -1" />
         </div>
-        <div class="slide-content">
+        <div class="slide-content" >
           <h3>Nam consequat felis</h3>
           <p>
             Maecenas euismod mauris pretium nibh vestibulum pellentesque.
@@ -224,11 +227,11 @@
     <h1 class="text-dark fw-bold .about-title-contact">Projects</h1>
   </div>
 
-  <div class="slider-inner-2 reveal">
+  <div class="slider-inner-2"  data-aos="fade-up">
     <div class="owl-carousel owl-theme sec-slider" id="sec-slider">
       <div class="position-relative" style="height: 70vh">
         <div class="item">
-          <div class="slid-img">
+          <div class="slid-img" >
             <img
               class="item-img"
               src="/images/jadeerslider-pic2.webp"
@@ -236,17 +239,75 @@
           </div>
 
           <div
-            class="slide-content animate__animated animate__fadeInLeft animate__slow reveal animate__delay-2s">
-            <div class="row project-reverse">
+            class="slide-content "   data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="row project-reverse" >
               <div class="col-md-3">
                 <a
                   href=""
-                  class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn animate__animated animate__fadeInUp animate__slow animate__delay-2s"
+                  class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn "
                   >View More</a
                 >
               </div>
               <div
-                class="col-md-9 p-0 animate__animated animate__fadeInRight animate__slow animate__delay-2s">
+                class="col-md-9 p-0" >
+                <h1 class="text-dark text-start fw-bold" >Code</h1>
+                <p class="text-dark text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Asperiores assumenda repellendus provident sunt
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="position-relative" style="height: 70vh">
+        <div class="item">
+          <div class="slid-img">
+            <img
+              class="item-img"
+              src="/images/jadeerslider-pic2.webp"
+              style="z-index: -1" />
+          </div>
+          <div class="slide-content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="row project-reverse" >
+              <div class="col-md-3">
+                <a
+                  href=""
+                  class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn"
+                  >View More</a
+                >
+              </div>
+              <div class="col-md-9 p-0"  >
+                <h1 class="text-dark text-start fw-bold" >Code</h1>
+                <p class="text-dark text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Asperiores assumenda repellendus provident sunt
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="position-relative" style="height: 70vh">
+        <div class="item">
+          <div class="slid-img">
+            <img
+              class="item-img"
+              src="/images/jadeerslider-pic2.webp"
+              style="z-index: -1" />
+          </div>
+          <div class="slide-content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="row project-reverse">
+              <div class="col-md-3">
+                <a
+                  href=""
+                  class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn"
+                  >View More</a
+                >
+              </div>
+              <div class="col-md-9 p-0"  >
                 <h1 class="text-dark text-start fw-bold">Code</h1>
                 <p class="text-dark text-start">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -266,7 +327,7 @@
               src="/images/jadeerslider-pic2.webp"
               style="z-index: -1" />
           </div>
-          <div class="slide-content">
+          <div class="slide-content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div class="row project-reverse">
               <div class="col-md-3">
                 <a
@@ -275,65 +336,7 @@
                   >View More</a
                 >
               </div>
-              <div class="col-md-9 p-0">
-                <h1 class="text-dark text-start fw-bold">Code</h1>
-                <p class="text-dark text-start">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores assumenda repellendus provident sunt
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="position-relative" style="height: 70vh">
-        <div class="item">
-          <div class="slid-img">
-            <img
-              class="item-img"
-              src="/images/jadeerslider-pic2.webp"
-              style="z-index: -1" />
-          </div>
-          <div class="slide-content">
-            <div class="row project-reverse">
-              <div class="col-md-3">
-                <a
-                  href=""
-                  class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn"
-                  >View More</a
-                >
-              </div>
-              <div class="col-md-9 p-0">
-                <h1 class="text-dark text-start fw-bold">Code</h1>
-                <p class="text-dark text-start">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores assumenda repellendus provident sunt
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="position-relative" style="height: 70vh">
-        <div class="item">
-          <div class="slid-img">
-            <img
-              class="item-img"
-              src="/images/jadeerslider-pic2.webp"
-              style="z-index: -1" />
-          </div>
-          <div class="slide-content">
-            <div class="row project-reverse">
-              <div class="col-md-3">
-                <a
-                  href=""
-                  class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn"
-                  >View More</a
-                >
-              </div>
-              <div class="col-md-9 p-0">
+              <div class="col-md-9 p-0"  >
                 <h1 class="text-dark text-start fw-bold">Code</h1>
                 <h2 class="texttt"></h2>
                 <p class="text-dark text-start">
@@ -351,11 +354,17 @@
 <!-- secound slider  -->
 
 <!-- about us  -->
-<div class="container-fluid px-lg-5 px-sm-3 py-4 reveal">
+<div class="container-fluid px-lg-5 px-sm-3 py-4" data-aos="fade-up"
+data-aos-offset="300"
+data-aos-easing="ease-in-sine">
   <div class="row">
     <div class="col-md-6 mb-3">
-      <h1 class="text-dark fw-bold .about-title-contact">About Jadeer</h1>
-      <p class="about-p">
+      <h1 class="text-dark fw-bold .about-title-contact" data-aos="fade-up"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">About Jadeer</h1>
+      <p class="about-p" data-aos="fade-up"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">
         Jadeer was brought to forever change the 
         game of the real estate sector seterotype 
         while enriching every apsect of its 
@@ -376,11 +385,17 @@
 
 <!-- Partners Section  -->
 
-<div class="container-fluid px-lg-5 px-sm-3 py-5 reveal">
+<div class="container-fluid px-lg-5 px-sm-3 py-5" data-aos="fade-up"
+  data-aos-offset="300"
+  data-aos-easing="ease-in-sine">
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 align-left col-lg-12">
-      <h1 class="text-dark fw-bold .about-title-contact">Our Partners</h1>
-      <p class="text-dark about-p">
+      <h1 class="text-dark fw-bold .about-title-contact" data-aos="fade-up"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">Our Partners</h1>
+      <p class="text-dark about-p" data-aos="fade-up"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">
         We exclsivley and skillfully picked all of our property owners and
         affiliates to only <br />
         partners with the best entities to ensure we meet the benchmark of
@@ -522,7 +537,10 @@
 
 
    
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>
   </body>

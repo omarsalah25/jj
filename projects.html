@@ -19,9 +19,9 @@
       rel="stylesheet"
       href="OwlCarousel2-2.3.4\dist\assets\owl.theme.default.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <title>Jadeer</title>
   </head>
@@ -42,6 +42,7 @@
     </div>
   </div>
   <div class="splash-end">
+   
 <!-- header & navBar -->
 <header>
   <div
@@ -150,17 +151,17 @@
           </div>
 
           <div
-            class="slide-content animate__animated animate__fadeInLeft animate__slow reveal animate__delay-2s">
+            class="slide-content " data-aos="fade-right" data-aos-offset="350" data-aos-easing="ease-in-sine">
             <div class="row project-reverse">
               <div class="col-md-3">
                 <a
                   href=""
-                  class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn animate__animated animate__fadeInUp animate__slow animate__delay-2s"
+                  class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn " data-aos="fade-right" data-aos-offset="350" data-aos-easing="ease-in-sine"
                   >View More</a
                 >
               </div>
               <div
-                class="col-md-9 p-0 animate__animated animate__fadeInRight animate__slow animate__delay-2s">
+                class="col-md-9 p-0 " data-aos="fade-right" data-aos-offset="350" data-aos-easing="ease-in-sine">
                 <h1 class="text-dark text-start fw-bold">Code</h1>
                 <p class="text-dark text-start">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -186,17 +187,17 @@
           </div>
 
           <div
-            class="slide-content animate__animated animate__fadeInLeft animate__slow reveal animate__delay-2s">
+            class="slide-content " data-aos="fade-right" data-aos-offset="350" data-aos-easing="ease-in-sine">
             <div class="row project-reverse">
               <div class="col-md-3">
                 <a
                   href=""
-                  class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn animate__animated animate__fadeInUp animate__slow animate__delay-2s"
+                  class="btn btn-dark py-2 px-4 rounded-pill mt-5 fs-5 view-btn"
                   >View More</a
                 >
               </div>
               <div
-                class="col-md-9 p-0 animate__animated animate__fadeInRight animate__slow animate__delay-2s">
+                class="col-md-9 p-0 " data-aos="fade-right" data-aos-offset="350" data-aos-easing="ease-in-sine">
                 <h1 class="text-dark text-start fw-bold">Code</h1>
                 <p class="text-dark text-start">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -276,9 +277,12 @@
  
   </div>
     
-
-
-  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="js/bootstrap.js"></script>
   <script src="js/main.js"></script>
+  </body>
+
 </html>

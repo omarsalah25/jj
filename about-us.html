@@ -16,9 +16,9 @@
       rel="stylesheet"
       href="OwlCarousel2-2.3.4\dist\assets\owl.theme.default.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <title>Jadeer</title>
   </head>
@@ -38,6 +38,7 @@
     </div>
   </div>
   <div class="splash-end">
+ 
  <!-- header & navBar -->
  <header>
   <div
@@ -141,7 +142,7 @@
     <div class="container">
       <div class="accordion accordion-flush " id="accordionExample">
         <!-- accordion-item -->
-        <div class="accordion-item mb-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
+        <div class="accordion-item mb-3 "  data-aos="fade-right" data-aos-offset="350" data-aos-easing="ease-in-sine">
           <h2 class="accordion-header" id="headingOne">
             <button
               class="accordion-button collapsed"
@@ -183,7 +184,7 @@
           </div>
         </div>
         <!-- accordion-item -->
-        <div class="accordion-item mb-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
+        <div class="accordion-item mb-3 "  data-aos="fade-right" data-aos-offset="350" data-aos-easing="ease-in-sine">
           <h2 class="accordion-header" id="headingTwo">
             <button
               class="accordion-button collapsed"
@@ -225,7 +226,7 @@
         <!-- accordion-item -->
         <!-- accordion-item -->
 
-        <div class="accordion-item mb-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
+        <div class="accordion-item mb-3 "  data-aos="fade-right" data-aos-offset="350" data-aos-easing="ease-in-sine">
           <h2 class="accordion-header" id="headingThree">
             <button
               class="accordion-button collapsed"
@@ -267,7 +268,7 @@
         <!-- accordion-item -->
         <!-- accordion-item -->
 
-        <div class="accordion-item mb-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
+        <div class="accordion-item mb-3 "  data-aos="fade-right" data-aos-offset="350" data-aos-easing="ease-in-sine">
           <h2 class="accordion-header" id="headingFour">
             <button
               class="accordion-button collapsed"
@@ -309,7 +310,7 @@
         <!-- accordion-item -->
         <!-- accordion-item -->
 
-        <div class="accordion-item mb-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
+        <div class="accordion-item mb-3 "  data-aos="fade-right" data-aos-offset="350" data-aos-easing="ease-in-sine">
           <h2 class="accordion-header" id="headingFive">
             <button
               class="accordion-button collapsed"
@@ -431,7 +432,7 @@
 
         <!-- accordion-item -->
 
-        <div class="accordion-item mt-3 animate__animated animate__fadeIn animate__slow animate__delay-2s">
+        <div class="accordion-item mt-3 "  data-aos="fade-right" data-aos-offset="350" data-aos-easing="ease-in-sine">
           <h2 class="accordion-header" id="headingSix">
             <button
               class="accordion-button collapsed"
@@ -544,7 +545,11 @@
   </div>
   <!-- splash -->
    
- 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
     <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>
   </body>
