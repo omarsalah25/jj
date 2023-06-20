@@ -5,5 +5,6 @@
     "Log": {
       "parser": "plain"
     }
-  }
+  },
+  "liveServer.settings.port": 5501
 }
