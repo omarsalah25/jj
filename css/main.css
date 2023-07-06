@@ -1382,7 +1382,7 @@ body {
     hide 1.3s ease-out forwards 1.2s;
   -o-animation: scale 0.2s ease-out forwards 3s,
     hide 1.3s ease-out forwards 1.2s;
-  animation: scale 0.2s ease-out forwards 3s, hide 1.3s ease-out forwards 1.2s;
+  animation: scale 0.2s ease-out forwards 1.5s, hide 0.3s ease-out forwards 1.2s;
 }
 @-webkit-keyframes scale {
   100% {
