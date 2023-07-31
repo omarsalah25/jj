@@ -10,8 +10,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="OwlCarousel2-2.3.4\dist\owl.carousel.js"></script>
+    <script  src="js/slick.min.js"></script>
+
     <link
       rel="stylesheet"
       href="OwlCarousel2-2.3.4\dist\assets\owl.carousel.css" />
@@ -23,6 +25,11 @@
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
       <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+          
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    // Add the new slick-theme.css if you want the default styling
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 
     <title>Jadeer</title>
   </head>
@@ -138,7 +145,7 @@
 <!-- img-thumbnail  -->
 <div class="container-fluid px-lg-5 px-sm-5 py-3 reveal">
   <h1 class="text-dark fw-bold about-title-contact  py-4 m-2">Projects</h1>
-
+<!-- 
   <div class="reveal ">
     <div class="owl-carousel owl-theme p-slider" id="p-slider">
       <div class="position-relative projects-relative-h" >
@@ -209,9 +216,80 @@
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div> -->
 
+
+
+<div class="multiple-items text-dark" >
+  <div class="text-dark fw-bold  about-title-contact">
+    
+    <div class="card mb-3" style="margin-right: 60px;">
+      <img class="card-img-top" src="./images/jadeerslider-pic.webp" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-title">Card title</p>
+        <h5 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
+      </div>
+    </div>
+
+  </div>
+  <div class="text-dark fw-bold  about-title-contact">
+    
+    <div class="card mb-3" style="margin-right: 60px;">
+      <img class="card-img-top" src="./images/jadeerslider-pic.webp" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-title">Card title</p>
+        <h5 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
+      </div>
+    </div>
+
+  </div>
+  <div class="text-dark fw-bold  about-title-contact">
+    
+    <div class="card mb-3" style="margin-right: 60px;">
+      <img class="card-img-top" src="./images/jadeerslider-pic.webp" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-title">Card title</p>
+        <h5 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
+      </div>
+    </div>
+
+  </div>
+  <div class="text-dark fw-bold  about-title-contact">
+    
+    <div class="card mb-3" style="margin-right: 60px;">
+      <img class="card-img-top" src="./images/jadeerslider-pic.webp" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-title">Card title</p>
+        <h5 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
+      </div>
+    </div>
+
+  </div>
+  <div class="text-dark fw-bold  about-title-contact">
+    
+    <div class="card mb-3" style="margin-right: 60px;">
+      <img class="card-img-top" src="./images/jadeerslider-pic.webp" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-title">Card title</p>
+        <h5 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
+      </div>
+    </div>
+
+  </div>
+  <div class="text-dark fw-bold  about-title-contact">
+    
+    <div class="card mb-3" style="margin-right: 60px;">
+      <img class="card-img" src="./images/jadeerslider-pic.webp" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-title">Card title</p>
+        <h5 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+</div>
 <!-- footer -->
 <div
   class="container-fluid px-lg-5 px-sm-3 py-4"
@@ -276,13 +354,47 @@
 <!-- footer -->
  
   </div>
+
     
+  
+  </body>
+
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+
+    <script type="text/javascript">
+    $('.multiple-items').slick({
+      infinite: true,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      dots: true,
+      loop:false,
+      centerMode: true,
+      responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        slidesToShow: 1
+      }
+    }
+  ]
+    });
+    </script>
+
+
+
   <script src="js/bootstrap.js"></script>
   <script src="js/main.js"></script>
-  </body>
-
 </html>
